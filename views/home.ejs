@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Blog</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <%- include('partials/header') %>
+    <div class="post-container">
+        <p><%= homeStartingContent %></p>
+    </div>
+    
+    <% for (let i = 0; i < posts.length; i++) { %>
+        <div class="post-container">
+            <h2><%= posts[i].title %></h2>
+            <p><%= posts[i].content.slice(0, 100) %>... <a href="/post/<%= posts[i]._id %>">Read More</a></p>
+            <div class="post-meta">
+                <p>Added on: <%= posts[i].dateAdded.toLocaleDateString() %></p>
+            </div>
+        </div>
+    <% } %>
+    <%- include('partials/footer') %>
+    </body>
+</html>

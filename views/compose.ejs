@@ -1,0 +1,15 @@
+<%- include('partials/header') %>
+<link rel="stylesheet" href="css/styles.css">
+
+<div class="container post-container">
+  <form id="userForm" action="/compose" method="post">
+    <label for="userInput">Title</label>
+    <input type="text" id="userInput" name="userInput" placeholder="Type Blog Title...">
+    <label for="userInput">Post</label>
+    <textarea id="userCompose" name="userCompose" placeholder="Type Blog Content..." rows="4" cols="30"></textarea>
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+<%- include('partials/footer') %>
+
