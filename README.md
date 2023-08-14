@@ -13,6 +13,8 @@ Responsive Styling: The blog is styled using CSS to ensure a visually engaging a
 
 Heroku Deployment: This blog has been deployed on Heroku, making it accessible to a global audience. 
 
+Live Demo: https://vast-castle-66908-d2f2e294dc78.herokuapp.com/
+
 Usage:
 
 Clone the repository to your local environment.
@@ -27,4 +29,6 @@ License:
 ExpressEJSMongoBlog operates under the MIT License, allowing you to modify, distribute, and use the code according to the license terms.
 
 
-Live Demo:
+
+![Screenshot 2023-08-14 172143](https://github.com/moayyadsaleh/peronsal-blog-with-db/assets/137034202/b2a5aaf5-6980-4eb0-93b7-906600f799f8)
+
