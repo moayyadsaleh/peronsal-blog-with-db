@@ -53,7 +53,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 //Establish data base connction
-const uri = "mongodb+srv://moayyadalazzam:GVtPjkX8hHChmG7j@cluster0.348ct3z.mongodb.net/blogDB?retryWrites=true&w=majority";
+const uri = "mongodb+srv://USERNAME:PASSWORD@cluster0.348ct3z.mongodb.net/blogDB?retryWrites=true&w=majority";
 mongoose.connect(uri, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
