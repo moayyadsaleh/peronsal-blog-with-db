@@ -1,5 +1,4 @@
 # peronsal-blog-with-db
-# peronsal-blog-with-db
 Welcome to my personal blog repository! This project showcases a dynamic and visually appealing blog website built using the Express.js framework, EJS templating engine, and integrated with MongoDB for data storage. Whether you're a developer, technology enthusiast, or simply curious about web development, this blog offers insights, experiences, and creative discussions centered around the ever-evolving world of programming.
 
 Features:
