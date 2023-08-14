@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px;
+  }
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  nav ul li a:hover {
+    color: #ff0000; /* Change the color as desired */
+  }
+
+  body {
+    font-family: 'Libre Baskerville', serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Make sure the body takes at least the full viewport height */
+  }
+  
+  /* The footer styles */
+  footer {
+    background-color: black;
+    color: whitesmoke;
+    padding: 0px;
+    text-align: center;
+    margin-top: auto; /* Push the footer to the bottom of the page */
+  }
+
+  .container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-left: 20px; /* Add left margin to move the content to the right */
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+    height: 120px; /* Adjust the height as needed */
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  h1.title {
+    color: #333;
+    padding: 20px;
+  }
+  
+  p.home-content {
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 0 20px;
+  }
+  
+
+/* Style the post title */
+.post-container h1 {
+  font-size: 28px;
+  color: #333;
+  padding: 20px;
+}
+
+/* Style the post content */
+.post-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+
+.post-container h2 {
+  margin-bottom: 10px;
+}
+
+.post-container p {
+  margin-bottom: 10px;
+}
+
+.post-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #999;
+}
+
+.post-meta a {
+  text-decoration: none;
+}
+/* Style the "Read more" link */
+.post-container a.read-more {
+  display: inline-block;
+  color: #0056b3;
+  text-decoration: none;
+}
+
+.post-container a.read-more:hover {
+  text-decoration: underline;
+}
+
+/* Add margins to other elements */
+.post-container {
+  margin-left: 20px; /* Add left margin to the entire container */
+}
+
+.post-container .title {
+  margin-left: 20px; /* Add left margin to the title */
+}
+
+.post-container .home-content {
+  margin-left: 20px; /* Add left margin to the content */
+}
+
+a {
+  color: #FF0000; /* Change to the desired color */
+  text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+  color: #990000; /* Change the color for hover state */
+  text-decoration: underline; /* Add underline on hover */
+}
+
+.post-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post-meta a {
+  text-decoration: none;
+}
+
+.post-meta p {
+  font-size: 14px;
+  color: #999;
+}
+
+.post-container p {
+  white-space: pre-line;
+}
